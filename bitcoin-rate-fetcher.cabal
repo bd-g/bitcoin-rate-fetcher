@@ -1,0 +1,31 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 716738733861004b0c8573e0fda3e82160448104d758f33645863466b98f5e2a
+
+name:           bitcoin-rate-fetcher
+version:        0.1.0.0
+description:    Simple Haskell application te fetch bitcoin rates
+category:       Web
+homepage:       https://github.com/bd-g/bitcoin-rate-fetcher
+author:         Brent George
+maintainer:     brentdgeorge1@gmail.com
+copyright:      2020 Brent George
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable bitcoin-rate-fetcher
+  main-is: Main.hs
+  other-modules:
+      Paths_bitcoin_rate_fetcher
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010

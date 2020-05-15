@@ -1,0 +1,20 @@
+name:                bitcoin-rate-fetcher
+version:             0.1.0.0
+#synopsis:
+description:         Simple Haskell application te fetch bitcoin rates
+homepage:            https://github.com/bd-g/bitcoin-rate-fetcher
+license:             BSD3
+author:              Brent George
+maintainer:          brentdgeorge1@gmail.com
+copyright:           2020 Brent George
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  bitcoin-rate-fetcher:
+    source-dirs:      src
+    main:             Main.hs
